@@ -1,0 +1,11 @@
+--- a/bin/rmcp.c	2016-11-12 05:03:37.000000000 +0100
++++ b/bin/rmcp.c	2017-03-03 13:12:34.353811137 +0100
+@@ -18,6 +18,8 @@
+  * Written by Koji Sato,
+  *            Ryusuke Konishi <konishi.ryusuke@lab.ntt.co.jp>.
+  */
++ 
++#define MAX_INPUT 255
+ 
+ #ifdef HAVE_CONFIG_H
+ #include "config.h"
