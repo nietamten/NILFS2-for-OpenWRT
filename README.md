@@ -7,4 +7,4 @@ Beforre building OpenWRT:
 - after running 'make menuconfig' select module and toolkit for NILFS2 and make sure CONFIG_KERNEL_POSIX_MQUEUE is checked (cleanerd will not work without it)
 
 I'm using it longer without problems to reduce the likelihood of data damage.
-MAde with the help of the OpenWRT forum.
+Made with the help of the OpenWRT forum.
