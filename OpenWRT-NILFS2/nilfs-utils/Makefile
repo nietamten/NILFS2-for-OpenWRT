@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=git://github.com/nilfs-dev/nilfs-utils
+PKG_SOURCE_URL:=https://github.com/nilfs-dev/nilfs-utils
 PKG_SOURCE_VERSION:=a45ade65884c32c87330128582bee98c241836f9
 #PKG_MD5SUM:=???
 
