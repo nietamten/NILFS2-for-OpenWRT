@@ -11,11 +11,9 @@ PKG_NAME:=nilfs-utils
 PKG_VERSION:=2.2.6
 PKG_RELEASE:=1
 
-PKG_SOURCE_PROTO:=git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=https://github.com/nilfs-dev/nilfs-utils
-PKG_SOURCE_VERSION:=a45ade65884c32c87330128582bee98c241836f9
-#PKG_MD5SUM:=???
+PKG_SOURCE_URL:=https://github.com/nilfs-dev/nilfs-utils/releases/download/v2.2.9/$(PKG_SOURCE)
+PKG_HASH:=914cd9b876b090377504e1184c7b8ca0
 
 PKG_FIXUP:=autoreconf
 PKG_INSTALL:=1
