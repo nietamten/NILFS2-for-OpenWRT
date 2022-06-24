@@ -70,6 +70,7 @@ define Package/nilfs-utils/install
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libnilfsgc.so.* $(1)/usr/lib/
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libnilfs.so $(1)/usr/lib	
 	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libnilfs.so.* $(1)/usr/lib/
+	$(CP) $(PKG_INSTALL_DIR)/usr/lib/libnilfscleaner.so.* $(1)/usr/lib/
 	
 	$(INSTALL_DIR) $(1)/usr/sbin
 	$(CP) $(PKG_INSTALL_DIR)/usr/sbin/nilfs-clean $(1)/usr/sbin		
